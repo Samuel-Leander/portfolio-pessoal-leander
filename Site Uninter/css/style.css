@@ -1,0 +1,86 @@
+/* === Estilos globais da página === */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte do site */
+  margin: 0;                      /* Remove margens externas */
+  padding: 0;                     /* Remove espaçamentos internos */
+  background: #f4f4f4;            /* Cor de fundo suave */
+  color: #333;                    /* Cor padrão do texto */
+}
+
+/* === Cabeçalho e menu de navegação === */
+header {
+  background-color: #003366;     /* Cor de fundo azul escuro */
+  color: white;                  /* Cor do texto no cabeçalho */
+  padding: 20px;                 /* Espaçamento interno */
+  text-align: center;           /* Centraliza o conteúdo */
+}
+
+/* Remove marcadores e ajusta layout do menu */
+nav ul {
+  list-style: none;             /* Remove os pontos da lista */
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;                /* Exibe os itens em linha */
+  justify-content: center;     /* Centraliza horizontalmente */
+  gap: 20px;                    /* Espaço entre os itens */
+}
+
+/* Estilo dos links de navegação */
+nav a {
+  color: white;                 /* Cor dos links no menu */
+  text-decoration: none;       /* Remove sublinhado */
+  font-weight: bold;           /* Deixa o texto em negrito */
+}
+
+/* Efeito hover no menu */
+nav a:hover {
+  text-decoration: underline;  /* Sublinha o link ao passar o mouse */
+}
+
+/* === Área principal do site === */
+main {
+  padding: 20px;                /* Espaço interno */
+  background: white;            /* Fundo branco para o conteúdo */
+  max-width: 800px;             /* Largura máxima */
+  margin: 20px auto;            /* Centraliza o conteúdo */
+  border-radius: 8px;           /* Bordas arredondadas */
+  box-shadow: 0px 0px 10px #ccc; /* Sombra suave */
+}
+
+/* === Rodapé === */
+footer {
+  background-color: #003366;    /* Mesmo fundo do cabeçalho */
+  color: white;                 /* Texto branco */
+  text-align: center;           /* Centralizado */
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* === Estilização de formulários (em caso de uso) === */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;                  /* Ocupa toda a largura */
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;       /* Borda cinza clara */
+  border-radius: 4px;           /* Bordas arredondadas */
+}
+
+/* Botão de envio do formulário */
+form input[type="submit"] {
+  background-color: #003366;    /* Cor de fundo */
+  color: white;                 /* Texto branco */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;              /* Cursor tipo "mãozinha" */
+}
+
+/* Efeito hover no botão */
+form input[type="submit"]:hover {
+  background-color: #0055aa;    /* Tom mais claro no hover */
+}
